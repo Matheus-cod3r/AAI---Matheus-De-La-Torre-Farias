@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fecaf{
+    color: yellow;
+}
+
+.music{
+    color: #CF092D;
+}
+
+header{
+    height: 100px;
+    background-color: #05072F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+}
+
+footer{
+    background-color: #05072F;
+    height: 100px;
+}
+
+.register_button{
+    color: #CF092D;
+}
+
+.content{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.texto1{
+    margin-top: 38px;
+    margin-left: 83px;
+    width: 50%;
+    height: 100px;
+    color: #FFFFFF;
+    flex-direction: row;
+    margin-bottom: 30px;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text{
+    width: 50%;
+}
+
+.texto2{
+    margin-top: 140px;
+    margin-left: 83px;
+    width: 900px;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    border: 3px solid red;
+}
+
+.barra{
+    color: #CF092D;
+}
+
+.help{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    gap: 100px;
+}
+
+.imagem{
+    margin-left: 150px;
+    height: 100%;
+    width: 50%;
+    border: 3px solid red;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao1{
+    margin-top: 45px;
+    margin-left: 85px;
+    font-size: 40px;
+    width: 350px;
+    height: 100px;
+    border-radius: 100px;
+    background: #CF092D;
+    color: #FFFFFF;
+    border-color: #CF092D;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.botao2{
+    margin-top: 45px;
+    margin-left: 85px;
+    font-size: 40px;
+    width: 350px;
+    height: 100px;
+    border-radius: 100px;
+    background: #410093;
+    border-color: #410093;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
